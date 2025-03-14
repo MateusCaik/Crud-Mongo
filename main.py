@@ -2,7 +2,6 @@ import pymongo
 from pymongo import MongoClient
 import os
 
-uri = f"mongodb+srv://mateuscaik4:Mts2408@agendada.rhne2.mongodb.net/?retryWrites=true&w=majority&appName=Agendada"
 client = MongoClient(uri)
 db = client['agenda']
 collection = db['contatos']
